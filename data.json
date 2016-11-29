@@ -1,0 +1,204 @@
+// http://localhost:4000/login
+// http://localhost:4000/registerUser
+
+{
+	"userName": "Anandharajan",
+	"memberID": "SK1201",
+	"mobileNumber": 9176261520,
+	"password": "pass@123",
+	"emailID": "anandharajan777@gmail.com"
+}
+
+
+[
+	{
+		"itemID": 101,
+		"barCodeNumber": 9555039900759,
+		"itemDescription": "SAMUDERA MARBLE BAR CAKE 300GM",
+		"itemArticleID": 10005450,
+		"itemPrice": 4.29,
+		"itemQuantity": 20,
+		"itemIamgeURL": "http://localhost:4000/productImage?pathName=images/9555039900759.jpg",
+		"itemLocation": "GROUND FLOOR Fresh & Bakery No.3"
+	},
+	{
+		"itemID": 102,
+		"barCodeNumber": 0955511270025,
+		"itemDescription": "ADMIRAL ICE CREAM CONE SUGAR 20S",
+		"itemArticleID": 10008867,
+		"itemPrice": 2.24,
+		"itemQuantity": 12,
+		"itemIamgeURL": "http://localhost:4000/productImage?pathName=images/0955511270025.jpg",
+		"itemLocation": "GROUND FLOOR Fresh No.5"
+	},
+	{
+		"itemID": 103,
+		"barCodeNumber": 9555039902302,
+		"itemDescription": "SAMUDERA MINI RED BEAN BUN 170GM",
+		"itemArticleID": 10048848,
+		"itemPrice": 1.79,
+		"itemQuantity": 8,
+		"itemIamgeURL": "http://localhost:4000/productImage?pathName=images/9555039902302.jpg",
+		"itemLocation": "GROUND FLOOR Fresh & Bakery No.3"
+	},
+	{
+		"itemID": 104,
+		"barCodeNumber": 8994907000282,
+		"itemDescription": "HEINZ FARLEYS BABY RUSK 240GM ORANGE",
+		"itemArticleID": 10003361,
+		"itemPrice": 9.60,
+		"itemQuantity": 9,
+		"itemIamgeURL": "http://localhost:4000/productImage?pathName=images/8994907000282.jpg",
+		"itemLocation": "GROUND FLOOR Gondola No.13"
+	},
+	{
+		"itemID": 105,
+		"barCodeNumber": 8994907000312,
+		"itemDescription": "HEINZ FARLEYS BABY RUSK 240GM BANANA",
+		"itemArticleID": 10030020,
+		"itemPrice": 9.60,
+		"itemQuantity": 21,
+		"itemIamgeURL": "http://localhost:4000/productImage?pathName=images/8994907000312.jpg",
+		"itemLocation": "GROUND FLOOR Gondola No.13"
+	},
+	{
+		"itemID": 106,
+		"barCodeNumber": 9556124511171,
+		"itemDescription": "TEN TEN BABY RUSK 36GM ORIGINAL",
+		"itemArticleID": 10024017,
+		"itemPrice": 6.30,
+		"itemQuantity": 10,
+		"itemIamgeURL": "http://localhost:4000/productImage?pathName=images/9556124511171.jpg",
+		"itemLocation": "GROUND FLOOR Gondola No.13"
+	},
+	{
+		"itemID": 107,
+		"barCodeNumber": 9556001171733,
+		"itemDescription": "NESTLE CERELAC 500GM RICE",
+		"itemArticleID": 10003705,
+		"itemPrice": 12.90,
+		"itemQuantity": 20,
+		"itemIamgeURL": "http://localhost:4000/productImage?pathName=images/9556001171733.jpg",
+		"itemLocation": "GROUND FLOOR Gondola No.13"
+	},
+	{
+		"itemID": 108,
+		"barCodeNumber": 0846656004227,
+		"itemDescription": "PRAN JUICE FRUIT, 1LT, MNGO",
+		"itemArticleID": 10128490001,
+		"itemPrice": 3.90,
+		"itemQuantity": 19,
+		"itemIamgeURL": "http://localhost:4000/productImage?pathName=images/0846656004227.jpg",
+		"itemLocation": "GROUND FLOOR Gondola No.7"
+	},
+	{
+		"itemID": 109,
+		"barCodeNumber": 9556124511119,
+		"itemDescription": "TEN TEN BABY RUSK 36GM VEG",
+		"itemArticleID": 10024018,
+		"itemPrice": 6.30,
+		"itemQuantity": 13,
+		"itemIamgeURL": "http://localhost:4000/productImage?pathName=images/9556124511119.jpg",
+		"itemLocation": "GROUND FLOOR Gondola No.13"
+	},
+	{
+		"itemID": 110,
+		"barCodeNumber": 9556124511355,
+		"itemDescription": "TEN TEN BABY RUSK 36GM APPLE",
+		"itemArticleID": 15010418002,
+		"itemPrice": 6.30,
+		"itemQuantity": 14,
+		"itemIamgeURL": "http://localhost:4000/productImage?pathName=images/9556124511355.jpg",
+		"itemLocation": "GROUND FLOOR Gondola No.13"
+	},
+	{
+		"itemID": 111,
+		"barCodeNumber": 9556001129192,
+		"itemDescription": "NESTLE CERELAC 350GM RICE SOYA",
+		"itemArticleID": 10003706,
+		"itemPrice": 10.80,
+		"itemQuantity": 15,
+		"itemIamgeURL": "http://localhost:4000/productImage?pathName=images/9556001129192.jpg",
+		"itemLocation": "GROUND FLOOR Gondola No.13"
+	},
+	{
+		"itemID": 112,
+		"barCodeNumber": 9556001129321,
+		"itemDescription": "NESTLE CERELAC PREB 350GM B/RICE",
+		"itemArticleID": 10003731,
+		"itemPrice": 10.80,
+		"itemQuantity": 18,
+		"itemIamgeURL": "http://localhost:4000/productImage?pathName=images/9556001129321.jpg",
+		"itemLocation": "GROUND FLOOR Gondola No.13"
+	},
+	{
+		"itemID": 113,
+		"barCodeNumber": 9556001171771,
+		"itemDescription": "NESTLE CERELAC 500GM WHEAT & HONEY ",
+		"itemArticleID": 10009189,
+		"itemPrice": 12.60,
+		"itemQuantity": 17,
+		"itemIamgeURL": "http://localhost:4000/productImage?pathName=images/9556001171771.jpg",
+		"itemLocation": "GROUND FLOOR Gondola No.13"
+	},
+	{
+		"itemID": 114,
+		"barCodeNumber": 9556007001324,
+		"itemDescription": "DRINHO ASD, 300ML, S/BEAN",
+		"itemArticleID": 10128001001,
+		"itemPrice": 1.20,
+		"itemQuantity": 10,
+		"itemIamgeURL": "http://localhost:4000/productImage?pathName=images/9556007001324.jpg",
+		"itemLocation": "GROUND FLOOR Gondola No.7"
+	},
+	{
+		"itemID": 115,
+		"barCodeNumber": 9556182104018,
+		"itemDescription": "CADBURY CHOC, 40GM, ALMOND",
+		"itemArticleID": 10125530002,
+		"itemPrice": 2.6,
+		"itemQuantity": 16,
+		"itemIamgeURL": "http://localhost:4000/productImage?pathName=images/9556182104018.jpg",
+		"itemLocation": "GROUND FLOOR Gondola No. 8"
+	},
+	{
+		"itemID": 116,
+		"barCodeNumber": 7622210410474,
+		"itemDescription": "CMD CHOCOLATE, 165GM PLAIN",
+		"itemArticleID": 15005176002,
+		"itemPrice": 6.90,
+		"itemQuantity": 10,
+		"itemIamgeURL": "http://localhost:4000/productImage?pathName=images/7622210410474.jpg",
+		"itemLocation": "GROUND FLOOR Gondola No. 8"
+	},
+	{
+		"itemID": 117,
+		"barCodeNumber": 9556166058351,
+		"itemDescription": "DUTCH LADY STERILISED FRESH MILK 450ML",
+		"itemArticleID": 10009046,
+		"itemPrice": 3.95,
+		"itemQuantity": 8,
+		"itemIamgeURL": "http://localhost:4000/productImage?pathName=images/9556166058351.jpg",
+		"itemLocation": "GROUND FLOOR Gondola No. 14"
+	},
+	{
+		"itemID": 118,
+		"barCodeNumber": 9556019237001,
+		"itemDescription": "HORLICKS M/DRINK 400GM ORIGINAL",
+		"itemArticleID": 10029641,
+		"itemPrice": 9.95,
+		"itemQuantity": 5,
+		"itemIamgeURL": "http://localhost:4000/productImage?pathName=images/9556019237001.jpg",
+		"itemLocation": "GROUND FLOOR Gondola No. 14"
+	},
+	{
+		"itemID": 119,
+		"barCodeNumber": 9556001004673,
+		"itemDescription": "MILO ACT CHOC M/DRINK 1KG",
+		"itemArticleID": 10003750,
+		"itemPrice": 17.99,
+		"itemQuantity": 10,
+		"itemIamgeURL": "http://localhost:4000/productImage?pathName=images/9556001004673.jpg",
+		"itemLocation": "GROUND FLOOR Gondola No. 14"
+	}
+]
