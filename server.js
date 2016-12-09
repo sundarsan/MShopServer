@@ -155,6 +155,10 @@ app.get('/getAllProduct', function (req, res) {
 					'message': 'Fetching data unsuccessful'
 				})
 			} else if (result.length) {
+				for (index in result) {
+					delete result[index]['_id']
+				}
+				console.log(result)
 				res.json({
 					'status': true,
 					'message': 'Data fetching successful',
@@ -173,7 +177,7 @@ app.get('/getAllProduct', function (req, res) {
 app.get('/getProduct', function (req, res) {
 	if (mongoObj !== null) {
 		var collectionObj = mongoObj.collection(productTable);
-		collectionObj.find({'barCodeNumber': parseInt(req.query['barCodeNumber'])}).toArray(function (err, result) {
+		collectionObj.find({'barCodeNumber': req.query['barCodeNumber']}).toArray(function (err, result) {
 			if (err) {
 				console.log('Error->', err);
 				res.json({
@@ -181,6 +185,7 @@ app.get('/getProduct', function (req, res) {
 					'message': 'Fetching data unsuccessful'
 				})
 			} else if (result.length) {
+				console.log(result);
 				res.json({
 					'status': true,
 					'message': 'Data fetching successful',
@@ -198,6 +203,7 @@ app.get('/getProduct', function (req, res) {
 })
 
 app.get('/productImage', function(req, res) {
+	console.log(req.query['pathName'])
 	var file = req.query['pathName'];
 	res.download(file)
 })
